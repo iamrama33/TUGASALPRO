@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    printf("RAMA EMANUEL FRANSISKUS BORGIA NAIBAHO\n");
+    printf("NIM:2605433\n");
+    printf("ASAL SEKOLAH DARI SMAN 2 PANGURURAN\n");
+    printf("ALASAN MASUK ELEKTRO KARNA MENURUT SAYA ELEKTRO PUNYA LAPANGAN PEKERJAAN YANG LUAS\n");
+    printf("MATA KULIAH FAVORIT SEJAUH INI ADALAH KALKULUS\n");
+    return 0;
+}
+
+
