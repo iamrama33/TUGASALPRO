@@ -1,0 +1,7 @@
+1. Nilai tegangan dan arus sebaiknya menggunakan float karena pada kenyataannya besaran listrik sering kali bernilai desimal (seperti 220.5 V atau 0.25 A). Jika menggunakan int, bagian desimal akan terpotong (pembulatan ke bawah), yang dapat mengakibatkan hasil perhitungan Hukum Ohm atau daya menjadi tidak akurat.
+
+2. Jika tanda & pada scanf() terlewat, scanf() akan menganggap nilai variabel sebagai alamat memori alih-alih alamat variabel yang sebenarnya. Hal ini berbahaya karena dapat menyebabkan runtime error (segmentation fault) atau melakukan crash pada program akibat mencoba mengakses/menulis ke lokasi memori yang tidak valid.
+
+3. Hasil sizeof() bisa berbeda antar komputer karena bergantung pada arsitektur perangkat keras (misalnya 32-bit vs 64-bit), sistem operasi, serta compiler yang digunakan. Spesifikasi bahasa C hanya menentukan batas ukuran minimum untuk setiap tipe data, bukan ukuran pasti secara mutlak.
+
+4. Kebiasaan penulisan kode yang paling membantu keterbacaan adalah penerapan indentasi yang konsisten dan penggunaan spasi di sekitar operator. Kebiasaan ini secara visual memperjelas struktur blok kode dan hubungan antar operasi, sehingga kode lebih mudah dipahami dan ditelusuri jika terjadi bug.
